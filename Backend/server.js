@@ -21,7 +21,7 @@ app.use(express.json());
 // CORS configuration - keep localhost for now, 
 // but remember to add your Vercel frontend URL here later!
 app.use(cors({
-    origin: ["http://localhost:5173", "https://your-frontend-vercel-url.vercel.app"], 
+    origin: ["http://localhost:5173", "https://mms-xxge.vercel.app"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
@@ -61,5 +61,8 @@ const startServer = async () => {
 };
 
 startServer();
+
+
+
 
 export default app; // CRITICAL: Export app, not db!
