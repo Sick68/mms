@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getDailyReport, getMonthlyReport, getStockReport, getExpiryReport } from "../api/reportApi.js";
+import { getDailyReport, getMonthlyReport, getStockReport, getExpiryReport } from "../api/ReportApi.js";
 // NEW: Import Recharts components
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 
