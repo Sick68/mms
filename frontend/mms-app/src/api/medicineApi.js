@@ -1,6 +1,6 @@
-import axios from 'axios';
+import API from './axios.js'
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+
 
 // Add token to every request automatically
 API.interceptors.request.use((req) => {
